@@ -1,0 +1,36 @@
+.main-nav {
+	list-style-type: none;
+}
+.main-nav li {
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.form-register {
+	display: block;
+	width: 30%;
+}
+.form-block {
+	
+}
+.form-block label {
+	display: block;
+	width: 10%;
+	min-width: 130px;
+	margin-right: 5px;
+	float: left;
+	text-align: right;
+}
+.form-block input {
+	margin-left: 5px;
+	width: 20%;
+	min-width: 200px;
+}
+.form-error {
+	display: none;
+}
